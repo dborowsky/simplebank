@@ -6,15 +6,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dborowsky/simplebank/utils"
+	"github.com/dborowsky/simplebank/util"
 	"github.com/stretchr/testify/require"
 )
 
 func createRandomAccount(t *testing.T) Account {
 	arg := CreateAccountParams{
-		Owner:    utils.RandomOwner(),
-		Balance:  utils.RandomMoney(),
-		Currency: utils.RandomCurrency(),
+		Owner:    util.RandomOwner(),
+		Balance:  util.RandomMoney(),
+		Currency: util.RandomCurrency(),
 	}
 
 	account, err := testQueries.CreateAccount(context.Background(), arg)
@@ -24,9 +24,9 @@ func createRandomAccount(t *testing.T) Account {
 
 func TestCreateAccount(t *testing.T) {
 	arg := CreateAccountParams{
-		Owner:    utils.RandomOwner(),
-		Balance:  utils.RandomMoney(),
-		Currency: utils.RandomCurrency(),
+		Owner:    util.RandomOwner(),
+		Balance:  util.RandomMoney(),
+		Currency: util.RandomCurrency(),
 	}
 
 	account, err := testQueries.CreateAccount(context.Background(), arg)
@@ -53,7 +53,7 @@ func TestGetAccountByID(t *testing.T) {
 
 func TestUpdateAccount(t *testing.T) {
 	account := createRandomAccount(t)
-	newBalance := utils.RandomMoney()
+	newBalance := util.RandomMoney()
 
 	got, err := testQueries.UpdateAccount(context.Background(), UpdateAccountParams{
 		ID:      account.ID,
