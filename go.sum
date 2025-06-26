@@ -12,6 +12,8 @@ github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc h1:U9qPSI2PIWSS1
 github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/dborowsky/simplebank/db v0.0.0-20250624083142-9a6311ec3db8 h1:OprdAPRWsZd8uLBwxeqMaCt6fA4tplmNuhy0Ixs6vTw=
 github.com/dborowsky/simplebank/db v0.0.0-20250624083142-9a6311ec3db8/go.mod h1:9JVWi/SDmJyCajtWJNnOzsUTw0bE4IQ462EhyTVsUl4=
+github.com/dborowsky/simplebank/db v0.0.0-20250626131238-3cc13e195256 h1:9I4iz6e7HsR6nX+D0kiHBw1Y372e9MNqrzPedpAXwwk=
+github.com/dborowsky/simplebank/db v0.0.0-20250626131238-3cc13e195256/go.mod h1:bDV0Bzcg0KYiRR84KAlSMwpJjGf+ilsxv0yDHnIe9rY=
 github.com/frankban/quicktest v1.14.6 h1:7Xjx+VpznH+oBnejlPUj8oUpdxnVs4f8XU8WnHkI4W8=
 github.com/frankban/quicktest v1.14.6/go.mod h1:4ptaffx2x8+WTWXmUCuVU6aPUX1/Mz7zb5vbUoiM6w0=
 github.com/fsnotify/fsnotify v1.7.0 h1:8JEhPFa5W2WU7YfeZzPNqzMP6Lwt7L2715Ggo0nosvA=
